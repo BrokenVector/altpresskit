@@ -75,5 +75,10 @@ class PresskitController extends Controller {
 		ViewHelper::$title = ViewHelper::$header = 'alt. presskit credits';
 		ViewHelper::render('credits');
 	}
+
+	public function monetize(){
+		ViewHelper::$title = ViewHelper::$header = 'Monetization Permission';
+		ViewHelper::render('monetize');
+	}
 }
 ?>

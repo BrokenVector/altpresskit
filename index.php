@@ -79,6 +79,8 @@ if(!ErrorHelper::hasErrors()){
 		$presskit->index();
 	} else if ($requestUrl == 'credits'){
 		$presskit->credits();
+	} else if ($requestUrl == 'monetize'){
+		$presskit->monetize();
 	} else {
 		$presskit->game($requestUrl);
 	}
