@@ -25,7 +25,7 @@
 	text-decoration: none;
 	display: block;
 	line-height: 234px;
-	border-bottom: 35px solid rgb(32, 127, 146);
+	border-bottom: 35px solid #f96d01;
 	font-weight: bold;
 	text-indent: 15px;
 	color: white;
@@ -34,7 +34,7 @@
 }
 
 #games li a:hover {
-	border-bottom-color: rgb(0, 152, 182);
+	border-bottom-color: #f97f2d;
 }
 
 #games .tall {
@@ -131,7 +131,7 @@ dt, #factsheet caption {
 	display: block;
 	padding: 10px;
 	margin: 0;
-	background: rgb(32, 127, 146);
+	background: #f96d01;
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
@@ -140,7 +140,7 @@ dt, #factsheet caption {
 }
 
 #menu li a:hover {
-	background: rgb(0, 152, 182);
+	background: #f97f2d;
 }
 
 #historydescription, #about {
@@ -177,7 +177,7 @@ blockquote span {
 	padding: 9px 19px 10px 20px;
 	border-left: 1px solid #ddd;
 	display: block;
-	background-color: rgb(32, 127, 146);
+	background-color: #f96d01;
 	color: white;
 }
 
@@ -185,7 +185,7 @@ blockquote span:after {
 	content: "\0020";
 	display: block;
 	border: 10px inset transparent;
-	border-top: 10px solid rgb(32, 127, 146);
+	border-top: 10px solid #f96d01;
 	float: right;
 	position: absolute;
 	right: 100px;
@@ -216,7 +216,7 @@ footer {
 }
 
 #creditlink {
-	background: rgb(32, 127, 146) url('../images/logo.svg');
+	background: #f96d01 url('../images/logo.svg');
 	background-size: contain;
 	display: block;
 	width: 30px;

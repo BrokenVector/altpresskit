@@ -16,7 +16,7 @@ set('FORCE_MOD_REWRITE', 'false');
 * Set to true (default), to have your promoter reviews overwrite any locally defined reviews
 * Set to false to append any reviews from promoter to the locally defined list
 */
-set('PROMOTER_OVERWRITE', true);
+set('PROMOTER_OVERWRITE', false);
 
 /**
 * Promoter cache
@@ -30,7 +30,7 @@ set('PROMOTER_CACHE_DURATION', 1 * 60 * 60);
 * 1 = check and display notification
 * 2 = check and install automatically (experimental, may break things in crazy ways, HERE BE DRAGONS)
 */
-set('UPDATE_TYPE', 1);
+set('UPDATE_TYPE', 0);
 
 /**
 * Update check frequency (Only applies if UPDATE_TYPE is set to 1 or higher)
