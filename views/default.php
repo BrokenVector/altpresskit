@@ -69,7 +69,7 @@
 		<?php echo $content; ?>
 
 		<footer class="four columns offset-by-eleven">
-			<a href="https://www.brokenvector.com/imprint/">Impressum</a> | <a href="https://www.brokenvector.com/privacy">Datenschutz</a>
+			<a href="https://www.brokenvector.com/legal/">Legal Notice</a> | <a href="https://www.brokenvector.com/privacy">Privacy Statement</a>
 			<a href=<a id="creditlink" href="/<?php echo BASE_PATH; ?>credits"><span>powered by alt. presskit()</span></a>
 		</footer>
 	</div><!-- container -->
